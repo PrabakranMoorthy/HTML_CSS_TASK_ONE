@@ -1,0 +1,360 @@
+:root {
+    --orange-color: #fa7436;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .wrapper {
+    max-width: 1134px;
+    margin: 0 auto;
+  }
+  .btn {
+    padding: 13px 26px;
+    background: var(--orange-color);
+    color: whitesmoke;
+    display: inline block;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    border-radius: 5px;
+    border: solid #fa7436;
+  }
+  .login {
+    background-color: white !important;
+    color: #fa7436;
+    border: solid white;
+  }
+  .sing {
+    padding: 11px 34px;
+  }
+  .discover {
+    background-color: white !important;
+    color: #fa7436;
+    font-size: medium;
+  }
+  .explore {
+    background-color: #fa7436 !important;
+    color: white;
+    font-size: medium;
+  }
+  .subscribe {
+    font-size: small;
+  }
+  .trophy::before {
+    content: url("assessts/trophy-removebg-preview\ 1.svg");
+  }
+  .map_cont::before {
+    content: url("./assessts/google-maps\ 1.svg");
+  }
+  .star_cont::before {
+    content: url("assessts/star\ 1.svg");
+  }
+  .last_star::before
+  {
+    content: url("assessts/sm\ str.svg");
+  }
+  .sm_star::before {
+    content: url("assessts/sm\ str.svg");
+  }
+  
+  .arrow::before {
+    content: url("./assessts/arr.svg");
+  }
+  .tra_book::after {
+    content: url("assessts/Trabook.svg");
+  }
+  .google_map::before{
+    content: url("assessts/Vector\ map.svg");
+  }
+  
+  .email::before {
+    content: url("assessts/mail.svg");
+    position: relative;
+    top: 50%;
+    left: 32px;
+  }
+  .tree_plan::after{
+  content: url("./assessts/tree.svg");
+  }
+  header {
+    height: 100vh;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    width: 1134px;
+    top: 0;
+    padding: 36px 0;
+    /* z-index: 100; */
+    /* transition: all 500ms ease; */
+  }
+  nav.scrolled {
+    box-shadow: 0 16px 14px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 0, 0, 8px, 8px;
+    top: 0;
+    padding: 12px;
+  }
+  .log::after {
+    content: url("assessts/Trabook.svg");
+  }
+  .log {
+    font-family: "Volkhov";
+    font-weight: bold;
+    font-size: 24px;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+  }
+  nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+  }
+  .hero {
+    margin: 0 0 60px 0;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    position: relative;
+  }
+  .big_fond {
+    font-family: "Volkhov";
+    font-weight: bold;
+    font-size: 48px;
+    flex-wrap: wrap;
+    line-height: 125%;
+  }
+  .journey {
+    color: #fa7436;
+  }
+  #btn_d {
+    padding: 15px;
+  }
+  .hero .right {
+    flex: 1;
+  }
+  .hero .right {
+    align-self: flex-end;
+  }
+  .hero .right img {
+    height: 496px;
+    vertical-align: middle;
+  }
+  .achievement-card {
+    position: relative;
+  }
+  .achievement-card .trophy {
+    left: 0%;
+    top: 1270px;
+  }
+  
+  .nav_two {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  color: rgb(32, 31, 31);
+    top: 0;
+    padding: 36px 0;
+  }
+  .nav_two ul {
+    display: flex;
+  
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+  }
+  .nav_two ul li a {
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .blk{
+    font-size: medium;
+    color: black;
+  }
+  section{
+  margin-top: 420px;
+  
+  }
+  .hed_two h1{
+    font-family: Volkhov;
+    font-size: 48px;
+    font-weight: normal;
+  text-align: center;
+    }
+    .hed_two p{
+      text-align: center;
+    }
+    .four_cards{
+      margin-top: 70px
+      
+    }
+    .four_cards{
+      display: flex;
+      gap: 30px;
+    }
+    .last_star{
+      font-weight: normal;
+      font-size: 16px;
+    }
+    .sm{
+      font-weight: bold;
+    
+    }
+    .left_right_arrow{
+      margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+    }
+  .network{
+    margin-top: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 300px ;
+  }
+  .tree_plan{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  }
+  .tree_plan {
+    font-family: Volkhov;
+  font-weight: bold;
+  font-size: 48px;
+  gap: 20px;
+  }
+  .para{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(37, 37, 37);
+  }
+  .arrow_right{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 20px;
+  }
+  .box{
+    display: flex;
+  justify-content: space-evenly;
+  left:-100px;
+  gap: 50px;
+  }
+  .arrow{
+    font-weight:lighter;
+    font-size: 20px;
+  }
+  .boy_head{
+    font-family: Volkhov;
+    font-weight: bold;
+    font-size: 48px;
+  }
+  .section_three{
+    margin: 0 0 60px 0;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    position: relative;
+  }
+  .boy_one{
+    margin: 32px;
+  }
+  
+  .card_last{
+    display: flex;
+   justify-content: space-evenly;
+   gap: 60px;
+  }
+  .section_five_box{
+    height: 410px;
+    width: 1100px;
+    background-color: #fa7436;
+    border-radius: 15px;
+  }
+  .tree_last img{
+   
+  
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+  
+  }
+  .offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .offer{
+    font-family: Volkhov;
+    font-weight: bold;
+    font-size: 48px;
+  color: white;
+  }
+  
+  .email {
+    height: 70px;
+    width: 639px;
+    border-radius: 10px;
+    gap: 50px;
+  }
+  .email .gap{
+    gap: 5px;
+  }
+  
+  footer{
+    margin-top: 80px;
+  }
+  .footer_box{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .copyright{
+    display: flex;
+  margin: 50px;  
+  }
+  .company ul {
+    
+    gap: 30px;
+    list-style: none;
+  
+  }
+  .company ul li p {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+  }
+  
+  .right img{
+    margin-bottom: 100px;
+  }
+  .hero{
+    position: relative;
+  }
+  
